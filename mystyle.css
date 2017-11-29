@@ -1,0 +1,22 @@
+
+body {
+    background-color: rgb(201, 76, 76);
+}
+
+#queries{
+	margin-top: 50px;
+    margin-left: 500px;
+}
+
+#queries a {
+    background: black;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#button form{
+margin-left: 50px;
+}
