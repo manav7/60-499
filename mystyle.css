@@ -6,6 +6,7 @@ body {
 #queries{
 	margin-top: 50px;
     margin-left: 500px;
+    cursor: pointer;
 }
 
 #queries a {
@@ -15,6 +16,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+
 }
 
 #button form{
