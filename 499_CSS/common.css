@@ -1,0 +1,38 @@
+/*used in the admin page*/
+#resultTable{
+	width: 920px;
+	/*position: absolute;
+	top: -99px;*/	
+}
+
+.tableContainer{
+	width: 1200px;
+}
+/*used in the admin page*/
+.topMargin{
+	margin-top: -9px;
+}
+
+.rightMargin{
+	margin-left:-20px;
+}
+
+.inputEditState{
+	background-color: #FFA500;
+}
+
+.overflow{
+	overflow-y: scroll; 
+}
+
+.contactFormDiv{
+	width:989px; 
+	margin-left: auto;
+	margin-right: auto; 
+	border-color: black;	
+}
+
+
+body{
+	background-color:#DCDCDC;
+}

@@ -1,0 +1,44 @@
+
+#resultTable{
+	width: 1200px;
+	/*position: absolute;
+	top: -99px;*/
+	
+}
+
+.topMargin{
+	margin-top: 550px;
+}
+
+#chartContainer{
+	height: 430px; 
+	width: 790px; 
+}
+
+/*#fieldsetDiv{
+	width: 710px;
+}*/
+
+.overFlow{
+	overflow-x: scroll;
+}
+
+#Year_fld{
+	width: 710px;
+	height: 500px;
+	float: left;
+	margin-left: 186px;
+	overflow-x: scroll;
+}
+
+div.clsHidden{
+	visibility: hidden;
+}
+
+#year_select{
+	float: left;
+}
+
+body{
+	background-color:#DCDCDC;
+}

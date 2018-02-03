@@ -1,10 +1,11 @@
 <?php
+
 ob_start();
 ?>
 <html> 
      <head>
 	       <title>This is a DataWarehouse Quering System Prototype</title>
-		   <link rel = "stylesheet" type = "text/css" href = "mystyle.css">
+		   <link rel = "stylesheet" type = "text/css" href = "../499_CSS/mystyle.css">
 	<script type="text/javascript">
 		function showResult(intQueryID){
 			//alert("ID: " + intQueryID);
@@ -21,7 +22,7 @@ ob_start();
 	 <head>
 	 
 	       <body>
-		       	<form action="processQuery.php" method="post" id="queryFrm">
+		       	<form action="Graph_result.php" method="post" id="queryFrm">
 			        <h1 align="center"> Data Warehouse Quering System </h1>
 					
 					<img src="Image.jpg">
@@ -34,9 +35,9 @@ ob_start();
 						<p><a onclick = "showResult(2);">View total sales</a></p>
 					</div>
 					
-					<!-- <div id ="queries" style="cursor: pointer;">
-						<p><a onclick = "showResult();">View all sales per product by year</a></p>
-					</div> -->
+					<div id ="queries" style="cursor: pointer;">
+						<p><a onclick = "showResult(3);">View all sales per product by year</a></p>
+					</div>
 					
 					<div id ="queries" style="cursor: pointer;">
 						<p><a onclick = "showResult(4);">View all sales per country</a></p>
@@ -61,4 +62,5 @@ ob_start();
 <? $strHTML .= ob_get_contents(); // get content from output buffer
 	ob_end_clean(); // clean output buffer
 	echo $strHTML;
-?>
+?>		         
+				 
